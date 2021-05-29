@@ -1,0 +1,47 @@
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 90vw;
+    display: flex;
+    height: 20vh;
+    background-color:#54eaac;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.40);
+}
+
+.navbar p{
+    color: rgb(6, 90, 65);
+    width: 60%;
+    font-size: 3rem;
+    margin: auto auto;
+    text-align: center;
+    padding-left: 50px;
+}
+
+.navbar button{
+    font-size: 1.5rem;
+    width: 15%;
+    height: 50%;
+    margin: auto auto;
+    border-radius: 30px;
+    border: 1px rgb(0, 128, 90); 
+    box-shadow: 0 2px 8px #178c1d;
+}
+
+.navbar button:hover{
+    background-color:rgb(19, 218, 158) ;
+}
+
+.user-list{
+    margin-top:4rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loader{
+    margin-left: 30%;
+}
